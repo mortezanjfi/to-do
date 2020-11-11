@@ -1,0 +1,75 @@
+body {
+    background-image: url(colors-background-2.jpg);
+    background-color: #232323;
+    background-blend-mode: darken;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+h1 {
+    background-color: gold;
+    color:darkslateblue;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 0;
+}
+input {
+    font-family: monospace;
+    padding: 0px 20px;
+    width: 100%;
+    color: gold;
+    background: darkslategrey;
+    border: none;
+    font-size: 18px;
+    line-height: 40px;
+}
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background-color: rgba(0, 5, 4, 0.1);
+    line-height: 40px;
+}
+i {
+    cursor: pointer;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+li i {
+    font-size: 20px;
+    text-decoration: line-through;
+    background-color: maroon;
+    margin-right: 20px;
+    width: 0;
+    text-align: center;
+    height: 40px;
+    display: inline-block;
+}
+li:hover i{
+    width: 40px;
+    transition: 0.2s linear;
+}
+li:nth-child(2n){
+    background-color: darkslategrey;
+}
+input:focus {
+    outline: none;
+    background-color: rgba(255, 215, 0, 0.05);
+}
+#container {
+    width: 40%;
+    margin: 0px 30%;
+    background: darkslategrey;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+.through {
+    color: gray;
+    text-decoration: line-through;
+}
+#addition {
+    float: right;
+}
